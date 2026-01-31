@@ -14,7 +14,7 @@ STREAM_SITE = "https://cinema-hub-stream.onrender.com"
 # ========= APP / BRANDING =========
 APP_NAME = "Cinema Hub"
 OWNER_NAME = "Umang Mishra"
-TELEGRAM_CHANNEL = "https://t.me/YourChannel"
+TELEGRAM_CHANNEL = "https://t.me/Cinema_Um"
 
 # ========= FEATURES (future use) =========
 ENABLE_STREAMING = True
