@@ -2,9 +2,97 @@
 <html>
 <head>
   <title>Cinema Hub</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 25px 10px 10px;
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-shadow: 0 0 15px rgba(255,255,255,0.3);
+    }
+
+    .owner {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .box {
+      margin: 30px auto;
+      max-width: 500px;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 16px;
+      padding: 25px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .file-id {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      opacity: 0.7;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>CINEMA HUB</h1>
-  <p>Streaming page (UI baad me banegi)</p>
+
+  <header>CINEMA HUB</header>
+  <div class="owner">by <strong>Umang Mishra</strong></div>
+
+  <div class="box">
+    <div class="file-id">
+      🎬 File ID: <strong>{{ file_id }}</strong>
+    </div>
+
+    <p>Streaming player next step me add hoga</p>
+
+    <!-- Telegram Button -->
+    <a class="btn" href="https://t.me/Cinema_Um" target="_blank">
+      📢 Join Telegram Channel
+    </a>
+  </div>
+
+  <footer>
+    © 2026 Cinema Hub • Powered by Umang Mishra
+  </footer>
+
 </body>
 </html>
