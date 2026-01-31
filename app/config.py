@@ -1,6 +1,5 @@
-APP_NAME = "Cinema Hub"
+import os
 
-# Telegram credentials
-API_ID = 123456        # apna API_ID
-API_HASH = "API_HASH"  # apna API_HASH
-BOT_TOKEN = "BOT_TOKEN"
+API_ID = int(os.environ.get("API_ID", 0))
+API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
